@@ -15,7 +15,7 @@ make
 
 Usage:
 
-./built_executable /full/path/to/the/first/image/in/the/sequence.png
+./basic_vSLAM /full/path/to/the/first/image/in/the/sequence.png
 
 References:
 
