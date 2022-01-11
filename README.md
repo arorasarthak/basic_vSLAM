@@ -1,7 +1,7 @@
 # basic_vSLAM
 A basic frontend implementation of feature based visual SLAM
 
-The code performs simple visual odometry using Shitomasi corners along with SIFT descriptors without any backend optimization. The code also displays Fundamental and Essential Matrices between every two consecutive frames. Two video files of the output have also been included. The C++ program generates a log file that is read by the python file for plotting purposes.
+The code performs simple visual odometry using Shitomasi corners along with SIFT descriptors without any backend optimization. The code also displays Fundamental and Essential Matrices between every two consecutive frames. Two video files of the output have also been included. The C++ program generates a log file that is read by a python/MATLAB file for plotting purposes.
 
 ## Installation:
 
