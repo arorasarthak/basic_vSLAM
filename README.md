@@ -7,15 +7,17 @@ The code performs simple visual odometry using Shitomasi corners along with SIFT
 
 To use the code, it needs to be built using CMake. The CMake project requires OpenCV, Eigen and DBoW3 as dependencies.
 
+```
 mkdir build && cd build
-
 cmake .. 
-
 make
+```
 
 Usage:
 
+```
 ./basic_vSLAM /full/path/to/the/first/image/in/the/sequence.png
+```
 
 References:
 
